@@ -1,4 +1,5 @@
 const clock = document.querySelector(".clock");
+const locations = document.querySelector(".current_location_a");
 
 var week = new Array(
   "일요일",
