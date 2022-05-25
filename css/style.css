@@ -17,6 +17,8 @@ body {
   background-color: rgb(176, 242, 255);
   border-radius: 20px;
   border: 1px solid black;
+  box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+  cursor: pointer;
 }
 
 .clock {
@@ -33,9 +35,17 @@ body {
   padding: 5px 0px;
   background-color: rgb(176, 242, 255);
   font-size: 50px;
-  border: 1px solid black;
+  border: 1px solid rgb(150, 234, 251);
   border-radius: 20px;
   position: relative;
+  box-shadow: -5px -5px 20px #fff, 5px 5px 5px #7dbdc8;
+  cursor: pointer;
+}
+.current_l:hover {
+  box-shadow: -2px -2px 5px #fff, 2px 2px 5px #7dbdc8;
+}
+.current_l:active {
+  box-shadow: inset 1px 1px 2px #fff, inset 0px 0px 2px #7dbdc8;
 }
 
 .coures_name {
@@ -44,17 +54,19 @@ body {
   background-color: rgb(255, 255, 255);
   border-radius: 20px;
   padding: 10px;
-  border: 1px solid black;
+  border: 1px solid rgba(255, 255, 255, 0.89);
 }
 
 .current_l_pic {
   visibility: hidden;
   height: 0vh;
   background-color: rgb(235, 252, 255);
+  border: 2px solid rgb(207, 248, 255);
   width: 100%;
   margin-top: -20px;
   padding-top: 30px;
   transition: all 0.5s;
+  border-radius: 20px;
 }
 .hidden {
   visibility: visible;
