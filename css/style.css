@@ -8,7 +8,7 @@ body {
 }
 
 .title_bar {
-  font-size: 50px;
+  font-size: 40px;
   margin: 10px;
   padding: 20px;
   width: 90%;
@@ -16,13 +16,12 @@ body {
   justify-content: center;
   background-color: rgb(176, 242, 255);
   border-radius: 20px;
-  border: 1px solid black;
-  box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
-  cursor: pointer;
+  border: 1px solid rgb(150, 234, 251);
+  box-shadow: 5px 5px 5px #7dbdc8;
 }
 
 .clock {
-  font-size: 35px;
+  font-size: 30px;
   margin: 10px;
 }
 
@@ -32,9 +31,10 @@ body {
 }
 .current_l {
   display: flex;
+  align-items: center;
   padding: 5px 0px;
   background-color: rgb(176, 242, 255);
-  font-size: 50px;
+  font-size: 20px;
   border: 1px solid rgb(150, 234, 251);
   border-radius: 20px;
   position: relative;
@@ -49,7 +49,9 @@ body {
 }
 
 .coures_name {
-  font-size: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+  word-break: nowrap;
   margin: 0px 5px;
   background-color: rgb(255, 255, 255);
   border-radius: 20px;
@@ -76,7 +78,7 @@ body {
 .pic_con {
   display: flex;
   flex-direction: row;
-  font-size: 30px;
+  font-size: 20px;
   margin: 10px 0px;
 }
 .pic_f {

@@ -42,7 +42,7 @@ const a_timeline = new Array(
 var a_location = new Array(
   "정문",
   "약학대학",
-  "해대1호관",
+  "해대 1호관",
   "본관",
   "학생회관",
   "인문대 서쪽",
@@ -84,7 +84,7 @@ var b_timeline = new Array(
 var b_location = new Array(
   "정문",
   "약학대학",
-  "해대1호관",
+  "해대 1호관",
   "교양동",
   "공대 4호관",
   "의과대학",
@@ -133,7 +133,7 @@ function getClock() {
   if (a_l_dep == 0) {
     const wait_time = a_n_dep - ch_time;
     a_locations.innerText = `첫차까지 ${wait_time}분 남았습니다.`;
-  } else if (a_timeline[22] + 12 < ch_time) {
+  } else if (a_timeline[22] + 12 <= ch_time) {
     a_locations.innerText = `금일 운영 종료되었습니다.`;
   } else if (ch_time - a_l_dep < 12) {
     const now_location = a_location[ch_time - a_l_dep];
@@ -145,7 +145,7 @@ function getClock() {
   if (b_l_dep == 0) {
     const wait_time = b_n_dep - ch_time;
     b_locations.innerText = `첫차까지 ${wait_time}분 남았습니다.`;
-  } else if (b_timeline[22] + 12 < ch_time) {
+  } else if (b_timeline[22] + 12 <= ch_time) {
     b_locations.innerText = `금일 운영 종료되었습니다.`;
   } else if (ch_time - b_l_dep < 12) {
     const now_location = b_location[ch_time - b_l_dep];
