@@ -1,6 +1,12 @@
 @import "reset.css";
+@import "variables.css";
+
+.bt_hidden {
+  display: none;
+}
 
 body {
+  position: relative;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -10,14 +16,21 @@ body {
 .title_bar {
   font-size: 40px;
   margin: 10px;
-  padding: 20px;
+  padding: 15px;
   width: 90%;
   display: flex;
   justify-content: center;
-  background-color: rgb(176, 242, 255);
+  background-color: var(--main_col);
   border-radius: 20px;
-  border: 1px solid rgb(150, 234, 251);
-  box-shadow: 5px 5px 5px #7dbdc8;
+  border: 1px solid var(--main_bor);
+  box-shadow: 3px 3px 5px var(--main_sh);
+}
+
+.jeju_uni_logo {
+  height: 40px;
+  width: 32px;
+  margin: 0px 10px;
+  border-radius: 7px;
 }
 
 .clock {
@@ -33,19 +46,19 @@ body {
   display: flex;
   align-items: center;
   padding: 5px 0px;
-  background-color: rgb(176, 242, 255);
+  background-color: var(--main_col);
   font-size: 20px;
-  border: 1px solid rgb(150, 234, 251);
+  border: 1px solid var(--main_bor);
   border-radius: 20px;
   position: relative;
-  box-shadow: -5px -5px 20px #fff, 5px 5px 5px #7dbdc8;
+  box-shadow: -5px -5px 20px var(--whi), 3px 3px 5px var(--main_sh);
   cursor: pointer;
 }
 .current_l:hover {
-  box-shadow: -2px -2px 5px #fff, 2px 2px 5px #7dbdc8;
+  box-shadow: -2px -2px 5px var(--whi), 1px 1px 5px var(--main_sh);
 }
 .current_l:active {
-  box-shadow: inset 1px 1px 2px #fff, inset 0px 0px 2px #7dbdc8;
+  box-shadow: inset 1px 1px 2px var(--whi), inset 0px 0px 2px var(--main_sh);
 }
 
 .coures_name {
@@ -53,17 +66,17 @@ body {
   font-weight: bolder;
   word-break: nowrap;
   margin: 0px 5px;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--whi);
   border-radius: 20px;
   padding: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.89);
+  border: 1px solid var(--whi);
 }
 
 .current_l_pic {
   visibility: hidden;
   height: 0vh;
-  background-color: rgb(235, 252, 255);
-  border: 2px solid rgb(207, 248, 255);
+  background-color: rgb(226, 255, 220);
+  border: 2px solid var(--main_bor);
   width: 100%;
   margin-top: -20px;
   padding-top: 30px;
@@ -77,12 +90,71 @@ body {
 
 .pic_con {
   display: flex;
+  align-items: center;
   flex-direction: row;
-  font-size: 20px;
+  font-size: 25px;
   margin: 10px 0px;
 }
 .pic_f {
   width: 40%;
   display: flex;
   justify-content: center;
+}
+.pic_f_move {
+  font-size: 25px;
+  margin: -11.5px 0px;
+}
+.pic_s {
+  font-size: 20px;
+}
+
+.pic_div {
+  color: var(--main_col);
+  margin: 0px 10px;
+}
+.space_for_fixed {
+  height: 150px;
+}
+
+.current_l_tt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coures_pic {
+  width: 95%;
+  height: 48%;
+}
+
+.fixed_bu {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  bottom: 50px;
+}
+
+.fixed_bu_con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  background-color: var(--whi);
+  border: 2px solid var(--fixed_bor);
+  border-radius: 25px;
+  box-shadow: -5px -5px 20px var(--whi), 3px 3px 5px var(--main_sh);
+  cursor: pointer;
+}
+.fixed_bu_con:hover {
+  box-shadow: -2px -2px 5px var(--whi), 1px 1px 5px var(--main_sh);
+}
+.fixed_bu_con:active {
+  box-shadow: inset 1px 1px 2px var(--whi), inset 0px 0px 2px var(--main_sh);
+}
+
+.click_col {
+  background-color: var(--bt_col);
 }
