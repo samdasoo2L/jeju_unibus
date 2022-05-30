@@ -13,7 +13,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  -webkit-tap-highlight-color: transparent;
 }
 
 .title_bar {
@@ -44,6 +43,7 @@ body {
 .course {
   width: 80%;
   margin: 10px 0px;
+  -webkit-tap-highlight-color: transparent;
 }
 .current_l {
   display: flex;
@@ -150,6 +150,7 @@ body {
   border-radius: 25px;
   box-shadow: -5px -5px 20px var(--whi), 3px 3px 5px var(--main_sh);
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 .fixed_bu_con:hover {
   box-shadow: -2px -2px 5px var(--whi), 1px 1px 5px var(--main_sh);
