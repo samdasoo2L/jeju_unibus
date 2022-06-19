@@ -22,7 +22,7 @@ function handlePicClick_b() {
   toggle_pic_b.classList.toggle("hidden_90");
 }
 function handlePicClick_night() {
-  toggle_pic_night.classList.toggle("hidden_30");
+  toggle_pic_night.classList.toggle("hidden_15");
 }
 
 function handlePicClick_c() {
