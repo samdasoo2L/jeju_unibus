@@ -63,6 +63,18 @@ body {
 .current_l:active {
   box-shadow: inset 1px 1px 2px var(--whi), inset 0px 0px 2px var(--main_sh);
 }
+/* night color change */
+.current_l_night {
+  background-color: var(--night_col);
+  border: 1px solid var(--night_bor);
+  box-shadow: -5px -5px 20px var(--whi), 3px 3px 5px var(--night_sh);
+}
+.current_l_night:hover {
+  box-shadow: -2px -2px 5px var(--whi), 1px 1px 5px var(--night_sh);
+}
+.current_l_night:active {
+  box-shadow: inset 1px 1px 2px var(--whi), inset 0px 0px 2px var(--night_sh);
+}
 
 .coures_name {
   font-size: 20px;
@@ -78,7 +90,7 @@ body {
 .current_l_pic {
   visibility: hidden;
   height: 0vh;
-  background-color: rgb(226, 255, 220);
+  background-color: var(--main_bgc);
   border: 2px solid var(--main_bor);
   width: 100%;
   margin-top: -20px;
@@ -86,9 +98,29 @@ body {
   transition: all 0.5s;
   border-radius: 20px;
 }
-.hidden {
+.current_l_pic_night {
+  background-color: var(--night_bgc);
+  border: 2px solid var(--night_bor);
+}
+.hidden_100 {
   visibility: visible;
   height: 100vh;
+}
+.hidden_90 {
+  visibility: visible;
+  height: 90vh;
+}
+.hidden_50 {
+  visibility: visible;
+  height: 50vh;
+}
+.hidden_30 {
+  visibility: visible;
+  height: 30vh;
+}
+.hidden_10 {
+  visibility: visible;
+  height: 10vh;
 }
 
 .pic_con {
@@ -115,6 +147,10 @@ body {
   color: var(--main_col);
   margin: 0px 10px;
 }
+.pic_div_night {
+  color: var(--night_col);
+  margin: 0px 10px;
+}
 .space_for_fixed {
   height: 150px;
 }
@@ -128,6 +164,18 @@ body {
 
 .coures_pic {
   width: 95%;
+  height: 48%;
+}
+.coures_pic_map {
+  width: 95%;
+  height: 95%;
+}
+.coures_pic_night_tt {
+  width: 60%;
+  height: 48%;
+}
+.coures_pic_night {
+  width: 60%;
   height: 48%;
 }
 
@@ -161,4 +209,8 @@ body {
 
 .click_col {
   background-color: var(--bt_col);
+}
+
+.ask_kakao {
+  font-size: 20px;
 }

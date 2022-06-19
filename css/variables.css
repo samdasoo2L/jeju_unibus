@@ -2,6 +2,13 @@
   --main_col: #81dc5d;
   --main_sh: #71b556;
   --main_bor: rgba(49, 180, 45, 0.2);
+  --main_bgc: rgb(226, 255, 220);
+
+  --night_col: #a9a9a9;
+  --night_sh: #848484;
+  --night_bor: rgba(178, 178, 178, 0.2);
+  --night_bgc: rgb(217, 217, 217);
+
   --fixed_bor: rgb(49, 180, 45, 0.5);
   --bt_col: #d0ffbc;
   --whi: rgb(255, 255, 255);
