@@ -214,3 +214,10 @@ body {
 .ask_kakao {
   font-size: 20px;
 }
+
+.fin_pic {
+  position: fixed;
+  left: 0px;
+  bottom: 50px;
+  z-index: -1;
+}
