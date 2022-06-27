@@ -23,7 +23,7 @@ function busRemainTime_ha() {
     if (ha_l_dep == 0) {
       const wait_time = ha_n_dep - ch_time;
       ha_locations.innerText = `첫차까지 ${wait_time}분 남았습니다.`;
-    } else if (ha_timeline[22] + 12 <= ch_time) {
+    } else if (ha_timeline[10] + 12 <= ch_time) {
       ha_locations.innerText = `금일 운영 종료되었습니다.`;
     } else if (ch_time - ha_l_dep < 12) {
       const now_location = a_location[ch_time - ha_l_dep];
