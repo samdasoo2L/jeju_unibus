@@ -13,7 +13,7 @@ const ha10 = document.querySelector(".pic_f_ha10");
 const ha11 = document.querySelector(".pic_f_ha11");
 const ha12 = document.querySelector(".pic_f_ha12");
 
-function getLocation() {
+function getLocation_ha() {
   if (ha_locations_lo.innerText == "현재 정문을 지나고 있습니다.") {
     ha1.innerText = `●`;
   } else if (ha_locations_lo.innerText == "현재 약학대학을 지나고 있습니다.") {
@@ -65,3 +65,5 @@ function getLocation() {
     ha12.innerText = `○`;
   }
 }
+
+setInterval(getLocation_ha, 1000);
