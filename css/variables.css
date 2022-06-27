@@ -4,6 +4,11 @@
   --main_bor: rgba(49, 180, 45, 0.2);
   --main_bgc: rgb(226, 255, 220);
 
+  --ha_col: #6ddef0;
+  --ha_sh: #57b7c6;
+  --ha_bor: rgba(38, 111, 170, 0.2);
+  --ha_bgc: rgb(226, 249, 255);
+
   --night_col: #a9a9a9;
   --night_sh: #848484;
   --night_bor: rgba(178, 178, 178, 0.2);

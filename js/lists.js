@@ -104,3 +104,18 @@ var night_timeline = new Array(
   1360,
   1380
 );
+
+var ha_timeline = new Array(
+  520,
+  535,
+  580,
+  640,
+  655,
+  720,
+  765,
+  775,
+  820,
+  940,
+  955,
+  1020
+);
