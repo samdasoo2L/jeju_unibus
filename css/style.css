@@ -188,7 +188,11 @@ body {
 }
 .coures_pic_ha {
   width: 95%;
-  height: 95%;
+  height: 85%;
+}
+.coures_info_ha {
+  margin-bottom: 10px;
+  font-size: 30px;
 }
 .coures_pic_map {
   width: 95%;
