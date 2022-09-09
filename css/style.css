@@ -198,13 +198,13 @@ body {
   width: 95%;
   height: 95%;
 }
-.coures_pic_night_tt {
+.coures_pic_night_new {
   width: 60%;
-  height: 48%;
+  height: 90%;
 }
-.coures_pic_night {
-  width: 60%;
-  height: 48%;
+.coures_pic_night_letter {
+  font-weight: bolder;
+  height: 6%;
 }
 
 .fixed_bu {

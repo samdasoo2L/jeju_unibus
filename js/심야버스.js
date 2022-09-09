@@ -5,11 +5,15 @@ function busRemainTime_N() {
   const ch_time = clockCh_time.innerText;
 
   if (dayLabel == "토요일" || dayLabel == "일요일") {
-    nightRemainTime.innerText = `주말은 운행하지 않습니다.`;
+    nightRemainTime.innerText = `주말은 운행하지 않습니다. 😭`;
     return;
   }
-  if (1170 > ch_time || ch_time > 1380) {
+  if (1170 > ch_time || ch_time > 1440) {
     nightRemainTime.innerText = `운영시간이 아닙니다.`;
+    return;
+  }
+  if (1400 < ch_time) {
+    nightRemainTime.innerText = `금일 운영이 종료되었습니다. 😥`;
     return;
   }
 

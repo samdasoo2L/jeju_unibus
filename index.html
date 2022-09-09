@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <img class="fin_pic" src="img/fin.jpg" alt="" />
+    <img class="fin_pic" src="img/start.jpg" alt="" />
     <div class="title_bar">
       <img class="jeju_uni_logo" src="img/jeju_uni_logo.jpg" alt="" />
       <h1>JEJU UNIBUS</h1>
@@ -19,7 +19,9 @@
     <span class="clockHiddenD bt_hidden"></span>
     <span class="clockHiddenCh bt_hidden"></span>
 
-    <div class="course course_ha">
+    <!-- 현위치부분 -->
+
+    <!-- <div class="course course_ha">
       <div class="current_l current_l_ha">
         <span class="coures_name">하계절</span>
         <span class="current_location_ha">하계절버스 종강파티 떠났습니다</span>
@@ -97,12 +99,12 @@
           <span class="pic_s">교양동</span>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="course course_a">
       <div class="current_l current_l_a">
         <span class="coures_name">A코스</span>
-        <span class="current_location_a">A버스 종강파티 떠났습니다</span>
+        <span class="current_location_a">A버스</span>
       </div>
       <div class="current_l_pic current_l_pic_a">
         <div class="pic_con">
@@ -182,7 +184,7 @@
     <div class="course course_b">
       <div class="current_l current_l_b">
         <span class="coures_name">B코스</span>
-        <span class="current_location_b">B버스 종강파티 떠났습니다</span>
+        <span class="current_location_b">B버스</span>
       </div>
       <div class="current_l_pic current_l_pic_b">
         <div class="pic_con">
@@ -259,10 +261,10 @@
       </div>
     </div>
 
-    <!-- <div class="course course_night">
+    <div class="course course_night">
       <div class="current_l current_l_night">
         <span class="coures_name">야간</span>
-        <span class="current_location_night">현위치</span>
+        <span class="current_location_night">야간버스</span>
       </div>
       <div class="current_l_pic current_l_pic_night">
         <div class="pic_con">
@@ -277,9 +279,9 @@
           <span class="pic_s">기숙사</span>
         </div>
       </div>
-    </div> -->
+    </div>
 
-    <div class="course course_ha_tt bt_hidden">
+    <!-- <div class="course course_ha_tt bt_hidden">
       <div class="current_l current_l_ha current_l_ha_tog">
         <span class="coures_name">하계절</span>
         <span class="current_location_b">시간표 (여름방학)</span>
@@ -290,7 +292,9 @@
         <div class="coures_info_ha">A코스로 돕니다!</div>
         <img class="coures_pic_ha" src="img/ha_bus.jpg" alt="" />
       </div>
-    </div>
+    </div> -->
+
+    <!-- 시간표부분 -->
 
     <div class="course course_c bt_hidden">
       <div class="current_l current_l_c">
@@ -317,15 +321,19 @@
     <div class="course course_night_tt bt_hidden">
       <div class="current_l current_l_night current_l_night_tog">
         <span class="coures_name">야간</span>
-        <span class="current_location_b">운행중단 / 재운행 기원</span>
+        <span class="current_location_b">2학기 재운영 확정! 😍</span>
       </div>
       <div
         class="current_l_pic current_l_tt current_l_pic_night current_l_pic_night_tog"
       >
-        <img class="coures_pic_night_tt" src="img/night_tt.jpg" alt="" />
-        <img class="coures_pic_night" src="img/night.jpg" alt="" />
+        <div class="coures_pic_night_letter">
+          오후 8시부터 11시20분까지! 20분 간격으로! 하루 11회!
+        </div>
+        <img class="coures_pic_night_new" src="img/night_new.jpg" alt="" />
       </div>
     </div>
+
+    <!-- 지도요청부분 -->
 
     <div class="course course_map bt_hidden">
       <div class="current_l current_l_map">
@@ -366,16 +374,16 @@
     <script src="js/lists.js"></script>
     <script src="js/clock.js"></script>
 
-    <!-- <script src="js/학기중.js"></script> -->
+    <script src="js/학기중.js"></script>
     <!-- <script src="js/여름방학.js"></script> -->
-    <!-- <script src="js/심야버스.js"></script> -->
+    <script src="js/심야버스.js"></script>
 
     <script src="js/pic_tog.js"></script>
 
     <!-- 아래꺼는 학기중 위치 -->
-    <!-- <script src="js/locations.js"></script> -->
+    <script src="js/locations.js"></script>
     <!-- 아래꺼는 하계절 위치 -->
-    <script src="js/ha_locations.js"></script>
+    <!-- <script src="js/ha_locations.js"></script> -->
 
     <script src="js/bt_tog.js"></script>
   </body>

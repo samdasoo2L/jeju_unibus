@@ -102,7 +102,8 @@ var night_timeline = new Array(
   1320,
   1340,
   1360,
-  1380
+  1380,
+  1400
 );
 
 var ha_timeline = new Array(
