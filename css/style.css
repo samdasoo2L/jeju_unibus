@@ -244,10 +244,10 @@ body {
 }
 
 .fin_pic {
-  height: 70vh;
-  width: 100vw;
+  height: 350px;
+  width: 350px;
   position: fixed;
-  left: 0px;
+  left: 20px;
   bottom: 50px;
   z-index: -1;
   opacity: 0.6;
