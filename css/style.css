@@ -244,8 +244,8 @@ body {
 }
 
 .fin_pic {
-  height: 350px;
-  width: 350px;
+  /* height: 350px; */
+  /* width: 350px; */
   position: fixed;
   left: 20px;
   bottom: 50px;
