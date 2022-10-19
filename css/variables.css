@@ -14,6 +14,12 @@
   --night_bor: rgba(178, 178, 178, 0.2);
   --night_bgc: rgb(217, 217, 217);
 
+  --JD_col: #2b2b2b;
+  --JD_sh: #414141;
+  --JD_bor: rgba(34, 34, 34, 0.2);
+  --JD_bgc: rgb(94, 94, 94);
+  --JD_font_col: #ffffff;
+
   --fixed_bor: rgb(49, 180, 45, 0.5);
   --bt_col: #d0ffbc;
   --whi: rgb(255, 255, 255);

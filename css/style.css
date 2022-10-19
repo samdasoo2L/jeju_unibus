@@ -69,11 +69,26 @@ body {
   border: 1px solid var(--night_bor);
   box-shadow: -5px -5px 20px var(--whi), 3px 3px 5px var(--night_sh);
 }
+.current_location_night_JD {
+  color: var(--JD_font_col);
+}
 .current_l_night:hover {
   box-shadow: -2px -2px 5px var(--whi), 1px 1px 5px var(--night_sh);
 }
 .current_l_night:active {
   box-shadow: inset 1px 1px 2px var(--whi), inset 0px 0px 2px var(--night_sh);
+}
+/* JD color change */
+.current_l_night_JD {
+  background-color: var(--JD_col);
+  border: 1px solid var(--JD_bor);
+  box-shadow: -5px -5px 20px var(--whi), 3px 3px 5px var(--JD_sh);
+}
+.current_l_night_JD:hover {
+  box-shadow: -2px -2px 5px var(--whi), 1px 1px 5px var(--JD_sh);
+}
+.current_l_night_JD:active {
+  box-shadow: inset 1px 1px 2px var(--whi), inset 0px 0px 2px var(--JD_sh);
 }
 /* ha color change */
 .current_l_ha {
@@ -113,6 +128,10 @@ body {
 .current_l_pic_night {
   background-color: var(--night_bgc);
   border: 2px solid var(--night_bor);
+}
+.current_l_pic_night_JD {
+  background-color: var(--JD_bgc);
+  border: 2px solid var(--JD_bor);
 }
 .current_l_pic_ha {
   background-color: var(--ha_bgc);
@@ -186,10 +205,22 @@ body {
   width: 95%;
   height: 48%;
 }
+.coures_pic_JD {
+  width: 95%;
+  height: 30%;
+  padding: 5px 0px;
+}
+.coures_pic_JD_title {
+  font-size: 30px;
+  font-weight: bolder;
+  color: var(--JD_font_col);
+  margin-bottom: 10px;
+}
 .coures_pic_ha {
   width: 95%;
   height: 85%;
 }
+
 .coures_info_ha {
   margin-bottom: 10px;
   font-size: 30px;
