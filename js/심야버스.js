@@ -9,7 +9,7 @@ function busRemainTime_N() {
     return;
   }
   if (1170 > ch_time || ch_time > 1440) {
-    nightRemainTime.innerText = `운영시간이 아닙니다.`;
+    nightRemainTime.innerText = `16일! 우리 꼭 투표합시다! (저는 🍊..)`;
     return;
   }
   if (1400 < ch_time) {
