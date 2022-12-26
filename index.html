@@ -6,14 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JejuUniBus</title>
     <link rel="stylesheet" href="css/style.css" />
-    <script type="text/javascript">
-      alert(
-        "중앙도서관 야간버스가 12월 9일부터 정상운행 되고 있습니다. 자세한 내용은 총학 인스타를 참고해주세요."
-      );
-    </script>
   </head>
   <body>
-    <img class="fin_pic" src="img/study.jpg" alt="" />
+    <img class="fin_pic" src="img/fin.jpg" alt="" />
     <div class="title_bar">
       <img class="jeju_uni_logo" src="img/jeju_uni_logo.jpg" alt="" />
       <h1>JEJU UNIBUS</h1>
@@ -26,10 +21,10 @@
 
     <!-- 현위치부분 -->
 
-    <!-- <div class="course course_ha">
+    <div class="course course_ha">
       <div class="current_l current_l_ha">
-        <span class="coures_name">하계절</span>
-        <span class="current_location_ha">하계절버스 종강파티 떠났습니다</span>
+        <span class="coures_name">동계절</span>
+        <span class="current_location_ha">동계절버스</span>
       </div>
       <div class="current_l_pic current_l_pic_ha">
         <div class="pic_con">
@@ -104,12 +99,31 @@
           <span class="pic_s">교양동</span>
         </div>
       </div>
-    </div> -->
+    </div>
 
+    <div class="course course_night">
+      <div class="current_l current_l_night">
+        <span class="coures_name">야간</span>
+        <span class="current_location_night">야간버스</span>
+      </div>
+      <div class="current_l_pic current_l_pic_night">
+        <div class="pic_con">
+          <span class="pic_f">○</span>
+          <span class="pic_s pic_div_night">|</span>
+          <span class="pic_s">정문</span>
+        </div>
+        <div class="pic_f pic_f_move">|</div>
+        <div class="pic_con">
+          <span class="pic_f">○</span>
+          <span class="pic_s pic_div_night">|</span>
+          <span class="pic_s">기숙사</span>
+        </div>
+      </div>
+    </div>
     <div class="course course_a">
       <div class="current_l current_l_a">
         <span class="coures_name">A코스</span>
-        <span class="current_location_a">A버스</span>
+        <span class="current_location_a">종강파티 떠났습니다😊</span>
       </div>
       <div class="current_l_pic current_l_pic_a">
         <div class="pic_con">
@@ -189,7 +203,7 @@
     <div class="course course_b">
       <div class="current_l current_l_b">
         <span class="coures_name">B코스</span>
-        <span class="current_location_b">B버스</span>
+        <span class="current_location_b">종강파티 떠났습니다😊</span>
       </div>
       <div class="current_l_pic current_l_pic_b">
         <div class="pic_con">
@@ -266,27 +280,7 @@
       </div>
     </div>
 
-    <div class="course course_night">
-      <div class="current_l current_l_night">
-        <span class="coures_name">야간</span>
-        <span class="current_location_night">야간버스</span>
-      </div>
-      <div class="current_l_pic current_l_pic_night">
-        <div class="pic_con">
-          <span class="pic_f">○</span>
-          <span class="pic_s pic_div_night">|</span>
-          <span class="pic_s">정문</span>
-        </div>
-        <div class="pic_f pic_f_move">|</div>
-        <div class="pic_con">
-          <span class="pic_f">○</span>
-          <span class="pic_s pic_div_night">|</span>
-          <span class="pic_s">기숙사</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="course course_night_JD">
+    <!-- <div class="course course_night_JD">
       <div class="current_l current_l_night_JD">
         <span class="coures_name">A+</span>
         <span class="current_location_night_JD"
@@ -299,12 +293,13 @@
         <img class="coures_pic_JD" src="img/JD_time.jpg" alt="" />
         <img class="coures_pic_JD" src="img/JD_lo.jpg" alt="" />
       </div>
-    </div>
+    </div> -->
 
-    <!-- <div class="course course_ha_tt bt_hidden">
+    <!-- 시간표부분 -->
+    <div class="course course_ha_tt bt_hidden">
       <div class="current_l current_l_ha current_l_ha_tog">
-        <span class="coures_name">하계절</span>
-        <span class="current_location_b">시간표 (여름방학)</span>
+        <span class="coures_name">동계절</span>
+        <span class="current_location_b">시간표 (겨울방학)</span>
       </div>
       <div
         class="current_l_pic current_l_tt current_l_pic_ha current_l_pic_ha_tog"
@@ -312,9 +307,7 @@
         <div class="coures_info_ha">A코스로 돕니다!</div>
         <img class="coures_pic_ha" src="img/ha_bus.jpg" alt="" />
       </div>
-    </div> -->
-
-    <!-- 시간표부분 -->
+    </div>
 
     <div class="course course_c bt_hidden">
       <div class="current_l current_l_c">
@@ -394,16 +387,16 @@
     <script src="js/lists.js"></script>
     <script src="js/clock.js"></script>
 
-    <script src="js/학기중.js"></script>
-    <!-- <script src="js/여름방학.js"></script> -->
+    <!-- <script src="js/학기중.js"></script> -->
+    <script src="js/여름방학.js"></script>
     <script src="js/심야버스.js"></script>
 
     <script src="js/pic_tog.js"></script>
 
     <!-- 아래꺼는 학기중 위치 -->
-    <script src="js/locations.js"></script>
+    <!-- <script src="js/locations.js"></script> -->
     <!-- 아래꺼는 하계절 위치 -->
-    <!-- <script src="js/ha_locations.js"></script> -->
+    <script src="js/ha_locations.js"></script>
 
     <script src="js/bt_tog.js"></script>
   </body>
