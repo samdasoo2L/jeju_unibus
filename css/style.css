@@ -275,11 +275,11 @@ body {
 }
 
 .fin_pic {
-  height: 350px;
-  width: 350px;
+  /* height: 350px; */
+  /* width: 350px; */
   position: fixed;
   left: 20px;
-  bottom: 135px;
+  bottom: 55px;
   z-index: -1;
   opacity: 0.6;
   border-radius: 20px;
