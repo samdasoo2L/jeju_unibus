@@ -1,12 +1,12 @@
 :root {
-  /* --main_col: #81dc5d;
+  --main_col: #81dc5d;
   --main_sh: #71b556;
   --main_bor: rgba(49, 180, 45, 0.2);
-  --main_bgc: rgb(226, 255, 220); */
-  --main_col: #fda4a5;
+  --main_bgc: rgb(226, 255, 220);
+  /* --main_col: #fda4a5;
   --main_sh: #ff9596;
   --main_bor: #ff9395;
-  --main_bgc: #ffcfd0;
+  --main_bgc: #ffcfd0; */
 
   --ha_col: #6ddef0;
   --ha_sh: #57b7c6;
@@ -24,10 +24,10 @@
   --JD_bgc: rgb(94, 94, 94);
   --JD_font_col: #ffffff;
 
-  /* --fixed_bor: rgb(49, 180, 45, 0.5);
+  --fixed_bor: rgb(49, 180, 45, 0.5);
   --bt_col: #d0ffbc;
-  --whi: rgb(255, 255, 255); */
-  --fixed_bor: #ffaaac;
-  --bt_col: #ffcbcc;
   --whi: rgb(255, 255, 255);
+  /* --fixed_bor: #ffaaac;
+  --bt_col: #ffcbcc;
+  --whi: rgb(255, 255, 255); */
 }
