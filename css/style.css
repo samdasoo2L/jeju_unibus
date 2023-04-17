@@ -146,6 +146,10 @@ body {
   visibility: visible;
   height: 90vh;
 }
+.hidden_60 {
+  visibility: visible;
+  height: 60vh;
+}
 .hidden_50 {
   visibility: visible;
   height: 50vh;
@@ -208,8 +212,9 @@ body {
 }
 .coures_pic_JD {
   width: 95%;
-  height: 30%;
+  height: 42%;
   padding: 5px 0px;
+  border-radius: 20px;
 }
 .coures_pic_JD_title {
   font-size: 30px;
