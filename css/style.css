@@ -261,7 +261,7 @@ body {
   background-color: var(--whi);
   border: 2px solid var(--fixed_bor);
   border-radius: 25px;
-  box-shadow: -5px -5px 20px var(--whi), 3px 3px 5px var(--main_sh);
+  box-shadow: -1px -1px 10px var(--whi), 3px 3px 5px var(--main_sh);
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
 }
