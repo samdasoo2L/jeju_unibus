@@ -27,10 +27,10 @@ const toggle_pic_Q = document.querySelector(".current_l_pic_Q");
 //   toggle_pic_ha.classList.toggle("hidden_90");
 // }
 function handlePicClick_a() {
-  toggle_pic_a.classList.toggle("hidden_60");
+  toggle_pic_a.classList.toggle("hidden_540px");
 }
 function handlePicClick_b() {
-  toggle_pic_b.classList.toggle("hidden_60");
+  toggle_pic_b.classList.toggle("hidden_540px");
 }
 function handlePicClick_night() {
   toggle_pic_night.classList.toggle("hidden_15");
