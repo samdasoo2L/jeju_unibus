@@ -256,11 +256,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 50px;
   background-color: var(--whi);
   border: 2px solid var(--fixed_bor);
-  border-radius: 25px;
+  border-radius: 5px;
   box-shadow: -1px -1px 10px var(--whi), 3px 3px 5px var(--main_sh);
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
